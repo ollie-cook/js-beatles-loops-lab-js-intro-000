@@ -18,3 +18,17 @@ var beatles2=[]
    }
    return beatles2
  }
+
+var iLoveTheBeatles = (n) =>{
+  var beatles3=[];
+  let i=0;
+
+  function increment(){
+    i=i+1; 
+    return i;
+  }
+  do{
+    beatles3.push('I love the Beatles!')
+  } while (increment()<15)
+  return beatles3
+}
