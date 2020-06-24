@@ -21,7 +21,7 @@ var beatles2=[]
 
 var iLoveTheBeatles = (n) =>{
   var beatles3=[];
-  let i=0;
+  let i=n;
 
   function increment(){
     i=i+1;
