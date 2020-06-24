@@ -15,4 +15,5 @@ var i=0
      beatles2.push(`${facts[i]}!!!`)
      i++
    }
+   return beatles2
  }
