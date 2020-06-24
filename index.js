@@ -10,7 +10,7 @@ var theBeatlesPlay = (musicians,instruments) => {
 var beatles2=[]
 
  var johnLennonFacts = (facts) => {
-i=0
+var i=0
    while(i<facts.length){
      beatles2.push(`${facts[i]}!!!`)
      i++
